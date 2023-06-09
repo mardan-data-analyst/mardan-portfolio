@@ -1,10 +1,10 @@
 // Sample project data
 const projectsData = [
   {
-    title: 'Project 1',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    imageUrl: 'path/to/project1-image.jpg',
-    demoUrl: 'path/to/project1-demo.html'
+    title: 'Analysis New York City Bike data',
+    description: 'This analysis was a part 5 day long data analytics tutorial provided by Career Foundry.',
+    imageUrl: 'https://github.com/mardan-data-analyst/mardan-data-analyst.github.io/blob/main/images/city-bike.jpg,
+    demoUrl: 'https://docs.google.com/spreadsheets/d/1t1Lh2ZEDC30OYTowz0_FOHp2fDMt41UoAEPB2jfE67I/edit?usp=sharing'
   },
   {
     title: 'Project 2',
