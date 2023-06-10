@@ -37,6 +37,7 @@ function generateProjectCards() {
     const demoLink = document.createElement('a');
     demoLink.href = project.demoUrl;
     demoLink.textContent = 'Read more';
+    demoLink.target = '_blank';
     projectCard.appendChild(demoLink);
 
     projectList.appendChild(projectCard);
@@ -44,4 +45,4 @@ function generateProjectCards() {
 }
 
 // Generate project cards on page load
-window.addEventListener('load', generateProjectCards, "_blank");
+window.addEventListener('load', generateProjectCards);
